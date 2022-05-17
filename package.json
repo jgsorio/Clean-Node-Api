@@ -7,16 +7,6 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgsorio/Clean-Node-Api.git"
